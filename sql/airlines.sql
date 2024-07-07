@@ -1,0 +1,30 @@
+SELECT
+    *
+FROM
+VALUES
+    ('Не указан', 'Не указано', 'Не указана')
+  , ('FV', 'Россия', 'Россия')
+  , ('S7', 'S7 Airlines', 'Россия')
+  , ('U6', 'Уральские авиалинии', 'Россия')
+  , ('IO', 'IrAero', 'Россия')
+  , ('DP', 'Победа', 'Россия')
+  , ('Y7', 'NordStar', 'Россия')
+  , ('6R', 'Алроса', 'Россия')
+  , ('SU', 'Аэрофлот', 'Россия')
+  , ('5N', 'Smartavia', 'Россия')
+  , ('N4', 'Nordwind Airlines', 'Россия')
+  , ('UT', 'Utair', 'Россия')
+  , ('WY', 'Oman Air', 'Оман')
+  , ('XT', 'Globus Airlines', 'Россия')
+  , ('MU', 'China Eastern Airlines', 'Китай')
+  , ('FM', 'Shanghai Airlines', 'Китай')
+  , ('3U', 'Sichuan Airlines', 'Китай')
+  , ('F7', 'iFly Airlines', 'Россия')
+  , ('A4', 'Азимут', 'Россия')
+  , ('EY', 'Etihad Airways', 'ОАЭ')
+  , ('CA', 'Air China', 'Китай')
+  , ('HU', 'Hainan Airlines', 'Китай')
+  , ('WZ', 'Red Wings Airlines', 'Россия')
+  , ('QR', 'Qatar Airways', 'Катар')
+  , ('EO', 'Pegas Fly', 'Россия') AS t (airline_code, airline_name, airline_origin)
+;

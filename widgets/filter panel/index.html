@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="bootstrap.min.css" />
+<link href="nouislider.min.css" rel="stylesheet">
+<link href="choices.min.css" rel="stylesheet">
+
+<script src="bootstrap.bundle.min.js"></script>
+<script src="nouislider.min.js"></script>
+<script src="choices.min.js"></script>
+<script src="danfojs.bundle.min.js"></script>
+
+<div class="card container">
+    <div id="filters">
+        <h6 style="margin-top: 12px">Багаж</h6>
+        <select id="baggageFilter" class="form-select" multiple></select>
+        <h6>Месяц</h6>
+        <select id="monthFilter" class="form-select" multiple></select>
+        <h6>Авиакомпания</h6>
+        <select id="airlineFilter" class="form-select" multiple></select>
+        <h6>Откуда</h6>
+        <select id="originFilter" class="form-select" multiple></select>
+        <h6>Куда</h6>
+        <select id="destinationFilter" class="form-select" multiple></select>
+        <h6>Цена</h6>
+        <div id="priceSlider"></div>
+        <h6>Пассажиры</h6>
+        <div id="passengerSlider"></div>
+        <h6>Перелетов</h6>
+        <div id="flightSlider"></div>
+        <button id="resetFilters" class="btn btn-secondary mt-1">Сбросить фильтры</button>
+    </div>
+</div>
